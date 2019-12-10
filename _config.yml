@@ -1,11 +1,11 @@
 title: Freddie Pengfei Li # your name (or website title) here
 logo: "/images/profile.png?raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
-  First description 
+  <a href="https://github.com/FreddieLPF/Haphpipe/">GitHub Repo</a> 
   <br><br>
-  Second description 
+   <a href="https://freddielpf.github.io/Haphpipe//">User Guide Webpage</a> 
   <br><br>
-  <a href="https://www.linkedin.com/in/pengfei-freddie-li-51598916a/">View My LinkedIn Profile</a> 
+  <a href="https://www.linkedin.com/in/pengfei-freddie-li-51598916a/">My LinkedIn Profile</a> 
   
 theme: jekyll-theme-minimal
 
