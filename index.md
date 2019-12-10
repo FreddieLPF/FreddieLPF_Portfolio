@@ -7,6 +7,7 @@
 Haphpipe is a HAplotype and PHylodynamics pipeline for viral assembly, population genetics, and phylodynamic.
 We will be introducing the Haphpipe software created by Computational Biology Institute at the George Washington University. 
 Keylie Gibson from Computational Biology Institute at the George Washington University recruited us to work from the ground up with the program and create a guide that is more accessible and easily understood to those that have not used such a program before. 
+
 ---
 ### haphpipe_assemble_01
 
@@ -24,6 +25,7 @@ This pipeline implements denovo assembly. Reads are first trimmed (trim_reads) a
 haphpipe_assemble_02 read1.fq.gz read2.fq.gz HIV_B.K03455.HXB2.amplicons.fasta sampleID
 ```
 This pipeline implements reference-based mapping assembly. Reads are first trimmed (trim_reads) and error-corrected (ec_reads). The corrected reads are used as input for reference-based mapping assembly (refine_assembly) for up to five iterations. Lastly, the assembly is finalized (finalize_assembly) by mapping reads onto the refined reference sequence. The final output is a FASTA file with final consensus sequences, final VCF, and aligned BAM file.
+
 ---
 
 <p style="font-size:11px">Page template forked from <a href="https://github.com/evanca/quick-portfolio">evanca</a></p>
